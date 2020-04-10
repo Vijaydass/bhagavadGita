@@ -1,0 +1,108 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #777777;
+	background-color:#ffffff;
+	-webkit-font-smoothing: antialiased;
+}
+/*--------- Body End -------*/
+/*---------- Normal Css Start -------*/
+a {
+	color: #777777;
+	text-decoration: none;
+	cursor:pointer;
+	-webkit-transition:all .3s;
+	-ms-transition:all .3s;
+	-o-transition:all .3s;
+	-moz-transition:all .3s;
+	transition:all .3s;
+}
+a:hover, a:focus {
+	color: #535465;
+	text-decoration: none;
+}
+a:focus {
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Philosopher', sans-serif;
+	font-weight: 600;
+	line-height: 1.1;
+	color: #333333;
+}
+img {
+	max-width: 100%;
+}
+input, textarea, select, button {
+	outline: none;
+	box-shadow:none;
+}
+input:focus, textarea:focus, select:focus, button:focus {
+	outline: none;
+	box-shadow:none;
+}
+.ast_toppadder10{
+	padding-top:10px;
+}
+.ast_toppadder20{
+	padding-top:20px;
+}
+.ast_toppadder30{
+	padding-top:30px;
+}
+.ast_toppadder40{
+	padding-top:40px;
+}
+.ast_toppadder50{
+	padding-top:50px;
+}
+.ast_toppadder60{
+	padding-top:60px;
+}
+.ast_toppadder70{
+	padding-top:70px;
+}
+.ast_toppadder80{
+	padding-top:80px;
+}
+.ast_toppadder90{
+	padding-top:90px;
+}
+.ast_toppadder100{
+	padding-top:100px;
+}
+.ast_bottompadder10{
+	padding-bottom:10px;
+}
+.ast_bottompadder20{
+	padding-bottom:20px;
+}
+.ast_bottompadder30{
+	padding-bottom:30px;
+}
+.ast_bottompadder40{
+	padding-bottom:40px;
+}
+.ast_bottompadder50{
+	padding-bottom:50px;
+}
+.ast_bottompadder60{
+	padding-bottom:60px;
+}
+.ast_bottompadder70{
+	padding-bottom:70px;
+}
+.ast_bottompadder80{
+	padding-bottom:80px;
+}
+.ast_bottompadder90{
+	padding-bottom:90px;
+}
+.ast_bottompadder100{
+	padding-bottom:100px;
+}
+.ast_padderboth120{
+	padding:120px 0px;
+}

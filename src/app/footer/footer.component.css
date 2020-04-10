@@ -1,0 +1,306 @@
+.ast_footer_wrapper{
+    float: left;
+    width: 100%;
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+}
+.ast_footer_info{
+	float:left;
+	width:100%;
+	text-align:center;
+    margin-bottom: 50px;
+}
+.ast_footer_info img{
+	display:inline-block;
+	margin-bottom:15px;
+}
+.ast_footer_info p{
+	float:left;
+	width:100%;
+	color:#ffffff;
+	margin-bottom:20px;
+}
+.ast_footer_info ul{
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.ast_footer_info ul li{
+	display:inline-block;
+	width:auto;
+	list-style:none;
+}
+.ast_footer_info ul li a{
+    float: left;
+    width: 40px;
+    height: 40px;
+	line-height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #777777;
+    margin: 5px;
+    color: #ffffff;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ast_footer_info ul li a:hover{
+    background-color: #ff6f00;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.widget.text-widget{
+	float:left;
+	width:100%;
+    margin-bottom: 70px;
+}
+.widget-title{
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 15px;
+}
+.ast_newsletter{
+    float: left;
+    width: 100%;
+}
+.ast_newsletter p{
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+.ast_newsletter_box{
+	float:left;
+	width:100%;
+}
+.ast_newsletter_box input{
+    float: left;
+    width: calc(100% - 65px);
+    height: 45px;
+    padding: 0px 15px;
+    border: 1px solid #ffffff;
+    border-right: 0px;
+    color:#ffffff;
+    border-radius: 3px 0px 0px 3px;
+    background-color: transparent;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ast_newsletter_box input:hover, .ast_newsletter_box input:focus{
+	background-color:rgba(255, 255, 255, 0.3);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ast_newsletter_box input::-webkit-input-placeholder { 
+  color: #ffffff;
+}
+.ast_newsletter_box input::-moz-placeholder {
+  color: #ffffff;
+}
+.ast_newsletter_box input:-ms-input-placeholder {
+  color: #ffffff;
+}
+.ast_newsletter_box input:-moz-placeholder {
+  color: #ffffff;
+}
+.ast_newsletter_box button{
+    float: right;
+    width: 65px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #ff6f00;
+    border: 1px solid #ffffff;
+    border-radius: 0px 3px 3px 0px;
+    padding: 0px;
+    background-color: transparent;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ast_newsletter_box button:hover, .ast_newsletter_box button:focus{
+	background-color: #ff6f00;
+	color:#ffffff;
+	border: 1px solid #ff6f00;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ast_servicelink{
+	float:left;
+	width:100%;
+}
+.ast_servicelink ul{
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.ast_servicelink ul li{
+	float:left;
+	width:100%;
+	list-style:none;
+}
+.ast_servicelink ul li a{
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 5px 0px 7px 0px;
+    border-bottom: 1px solid #444444;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ast_servicelink ul li:first-child a{
+	padding-top: 0px;
+}
+.ast_servicelink ul li:last-child a{
+	padding-bottom: 0px;
+	border-bottom:0px;
+}
+.ast_servicelink ul li a:hover{
+	color: #ff6f00;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ast_sociallink{
+	float:left;
+	width:100%;
+}
+.ast_sociallink ul{
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.ast_sociallink ul li{
+	float:left;
+	width:100%;
+	list-style:none;
+}
+.ast_sociallink ul li a{
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 5px 0px 7px 0px;
+    border-bottom: 1px solid #444444;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ast_sociallink ul li:first-child a{
+	padding-top: 0px;
+}
+.ast_sociallink ul li:last-child a{
+	padding-bottom: 0px;
+	border-bottom:0px;
+}
+.ast_sociallink ul li a:hover{
+	color: #ff6f00;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ast_gettouch{
+	float:left;
+	width:100%;
+}
+.ast_gettouch ul{
+	float:left;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.ast_gettouch ul li{
+	float:left;
+	width:100%;
+	list-style:none;
+	margin-bottom:15px;
+}
+.ast_gettouch ul li:last-child{
+	margin-bottom:0px;
+}
+.ast_gettouch ul li i{
+	float:left;
+	width:30px;
+	color: #ff6f00;
+	font-size:20px;
+    padding-top: 3px;
+}
+.ast_gettouch ul li p{
+	float:right;
+	width:calc(100% - 30px);
+	color:#ffffff;
+	margin-bottom:0px;
+}
+.ast_gettouch ul li a{
+    float: left;
+    width: calc(60% - 30px);
+    color: #ffffff;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ast_gettouch ul li a:hover{
+	color: #ff6f00;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.ast_copyright_wrapper{
+	float:left;
+	width:100%;
+	text-align:center;
+	border-top:1px dotted #ffffff;
+	padding-top:20px;
+}
+.ast_copyright_wrapper p{
+	float:left;
+	width:100%;
+	margin-bottom:0px;
+	text-transform:capitalize;
+	color:#ffffff;
+}
+.ast_copyright_wrapper p a{
+    font-weight: 700;
+	color: #ff6f00;
+}
